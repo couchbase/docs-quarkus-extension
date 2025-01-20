@@ -1,0 +1,10 @@
+= Couchbase Quarkus Release Notes
+
+
+== Couchbase Quarkus 1.0 Releases
+
+
+=== Version 1.0.0 (17 January 2025)
+
+Initial GA release.
+

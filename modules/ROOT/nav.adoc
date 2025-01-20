@@ -1,0 +1,6 @@
+* xref:ROOT:overview.adoc[]
+* xref:ROOT:getting-started.adoc[]
+* xref:ROOT:compatibility.adoc[]
+* https://javadoc.io/doc/io.quarkiverse.couchbase/quarkus-couchbase/latest/index.html[API Reference^]
+* xref:ROOT:release-notes.adoc[]
+// * xref:ROOT:
