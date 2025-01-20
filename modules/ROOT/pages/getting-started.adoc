@@ -1,6 +1,14 @@
 = Getting Started 
 
 
+We recommend using SDKMAN to install the JDK, and Mandrel (the Quarkus-recommended version of GraalVM).
+
+[source,console]
+----
+sdk install java 24.0.2.r22-mandrel
+sdk use java 24.0.2.r22-mandrel
+----
+
 == Creating a Quarkus App
 
 It is recommended to generate a starter app using the https://code.quarkus.io/?e=io.quarkiverse.couchbase%3Aquarkus-couchbase[Quarkus Code Starter].
