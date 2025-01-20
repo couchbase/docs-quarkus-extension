@@ -1,3 +1,4 @@
+= Couchbase Quarkus
 
 The Couchbase Quarkus extension integrates the Couchbase Java SDK within the Quarkus ecosystem.
 Most notably this extension provides GraalVM native-image support to the existing Java SDK, in addition to other Quarkus integration such as Health Checks, ArC dependency injection, Micrometer metrics, DevServices and more.
