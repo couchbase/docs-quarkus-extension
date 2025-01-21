@@ -1,4 +1,7 @@
 = Getting Started 
+:description: The Couchbase Quarkus extension integrates the Couchbase Java SDK within the Quarkus ecosystem.
+
+
 
 
 We recommend using SDKMAN to install the JDK, and Mandrel (the Quarkus-recommended version of GraalVM).

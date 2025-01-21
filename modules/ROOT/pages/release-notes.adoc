@@ -1,10 +1,18 @@
 = Couchbase Quarkus Release Notes
+:description: Release notes for the Couchbase Quarkus Java Extension.
+
+
+
+[abstract]
+{description}
 
 
 == Couchbase Quarkus 1.0 Releases
 
 
 === Version 1.0.0 (17 January 2025)
+
+https://javadoc.io/doc/io.quarkiverse.couchbase/quarkus-couchbase/1.0.0/index.html[API Reference]
 
 Initial GA release.
 
