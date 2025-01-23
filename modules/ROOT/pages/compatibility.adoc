@@ -2,9 +2,11 @@
 :description: Quarkus Couchbase needs Quarkus 3.15 or newer.
 
 
-Quarkus Couchbase needs Quarkus 3.15 or newer.
+Quarkus Couchbase has the following minimum dependencies: 
 
-See the xref:java-sdk:project-docs:compatibility.adoc[Java SDK Compatibility Guide] for wider compatibility of the Java SDK --
-but note that Quarkus Couchbase needs at least JDK 17.
+* Quarkus 3.15 or newer.
+* Couchbase Java SDK 37.7 or newer.
+* JDK 17 or 21.
 
+See the xref:java-sdk:project-docs:compatibility.adoc[Java SDK Compatibility Guide] for wider compatibility of the Java SDK.
 We'd recommend using SDKMAN to manage versions of JVM and associated tools.
