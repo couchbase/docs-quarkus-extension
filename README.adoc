@@ -1,9 +1,9 @@
 = Couchbase Java SDK - Quarkus Extension Documentation
 
-This repository hosts the documentation source for the https://docs.couchbase.com/quarkus/1.0/ROOT/overview.html[Couchbase Java SDK Quarkus Extension].
+This repository hosts the documentation source for the https://docs.couchbase.com/quarkus/1.1/ROOT/overview.html[Couchbase Java SDK Quarkus Extension].
 
-This branch documents the 1.0 release of the Extension, which follows the 3.7 release of the Java SDK,
-which in turn follows the https://docs.couchbase.com/java-sdk/1.0/project-docs/compatibility.html#api-version[SDK 3.6 API].
+This branch documents the 1.1 release of the Extension, which follows the 3.8 release of the Java SDK,
+which in turn follows the https://docs.couchbase.com/java-sdk/1.0/project-docs/compatibility.html#api-version[SDK 3.7 API].
 
 
 == Contributing
@@ -25,7 +25,7 @@ If you are not sure the best way to update the docs, please raise a GitHub issue
 == Notes for Docs Maintainers
 
 This docset sits alongside the Java SDK docs.
-The philosophy behind the SDK docs' Information Architecture can be found in the https://docs.couchbase.com/java-sdk/3.7/project-docs/metadoc-about-these-sdk-docs.html[meta doc].
+The philosophy behind the SDK docs' Information Architecture can be found in the https://docs.couchbase.com/java-sdk/3.8/project-docs/metadoc-about-these-sdk-docs.html[meta doc].
 
 === Directory Structure
 
