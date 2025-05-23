@@ -3,7 +3,7 @@
 
 
 Each Quarkus Couchbase release is built for a specific Couchbase Java SDK  version,
-and the version is preset for you (see the xref:release-notes.adoc[release notes]:
+and the version is preset for you (see the xref:release-notes.adoc[release notes]):
 
 .Compatibility Matrix
 [cols="2,1,1"]
