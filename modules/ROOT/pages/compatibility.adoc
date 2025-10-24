@@ -4,9 +4,20 @@
 
 Quarkus Couchbase has the following minimum dependencies: 
 
-* Quarkus 3.15 or newer.
-* Couchbase Java SDK 3.7.7 or newer.
 * JDK 17 or newer. See the xref:java-sdk:project-docs:compatibility.adoc#jdk-version-compatibility[JDK Version Compatibility listing] in the Java SDK docs for specific LTS implementations supported.
+
+== Build compatibility matrix
+
+Each quarkus-couchbase version is built with a specific Quarkus and Couchbase Java SDK version. 
+The following table lists the versions the `quarkus-couchbase` extension is built with.
+
+[cols="1,1,1",options="header"]
+|===
+| quarkus-couchbase | Couchbase Java SDK | Quarkus
+| 1.2.0 | 3.9.2 | 3.28.4
+| 1.1.0 | 3.8.0 | 3.20.0
+| 1.0.0 | 3.7.7 | 3.17.5
+|===
 
 See the xref:java-sdk:project-docs:compatibility.adoc[Java SDK Compatibility Guide] for wider compatibility of the Java SDK.
 We'd recommend using SDKMAN to manage versions of JVM and associated tools.

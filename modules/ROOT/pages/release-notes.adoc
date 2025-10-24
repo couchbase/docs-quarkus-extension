@@ -9,6 +9,20 @@
 
 == Couchbase Quarkus 1.0 Releases
 
+=== Version 1.2.0 (24 October 2025)
+
+https://javadoc.io/doc/io.quarkiverse.couchbase/quarkus-couchbase/1.2.0/index.html[API Reference]
+
+- Upgrade to Couchbase Java SDK 3.9.2.
+- Add support for TLS connections in native-mode, either to Capella using the packaged certificate, or using a path to a custom certificate.
+- Add additional security configuration options.
+
+=== Version 1.1.0 (14 May 2025)
+
+https://javadoc.io/doc/io.quarkiverse.couchbase/quarkus-couchbase/1.1.0/index.html[API Reference]
+
+- Upgrade to Couchbase Java SDK 3.8.0.
+- Add configuration option for preferredServerGroup.
 
 === Version 1.0.0 (17 January 2025)
 
