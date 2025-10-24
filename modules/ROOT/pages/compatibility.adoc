@@ -1,18 +1,19 @@
 = Compatibility Guide
 :description: Quarkus Couchbase 1.1 needs Quarkus 3.20 or newer.
+:table-caption!:
 
 
-Each Quarkus Couchbase release is built for a specific Couchbase Java SDK  version,
+Each Quarkus Couchbase release is built for a specific Quarkus and Couchbase Java SDK  version,
 and the version is preset for you (see the xref:release-notes.adoc[release notes]):
 
 .Compatibility Matrix
-[cols="2,1,1"]
+[cols="2,1,1,1"]
 |===
-| Quarkus Couchbase | 1.0.0 | 1.1.0
+| Quarkus Couchbase | 1.0.0 | 1.1.0 | 1.2.0
 
-| Java SDK | 3.7.7 | 3.8.0
+| Java SDK | 3.7.7 | 3.8.0 | 3.9.2
 
-| Quarkus version | 3.15+ | 3.20+
+| Quarkus version | 3.17.5 | 3.20.0 | 3.28.4
 |===
 
 

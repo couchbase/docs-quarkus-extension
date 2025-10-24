@@ -26,12 +26,12 @@ Maven::
 Add this to your `pom.xml`:
 
 
-[source,xml]
+[source,xml,subs="+attributes"]
 ----
 <dependency>
   <groupId>io.quarkiverse.couchbase</groupId>
   <artifactId>quarkus-couchbase</artifactId>
-  <version>1.1.0</version>
+  <version>{quarkus_version}</version>
 </dependency>
 ----
 --
@@ -43,7 +43,7 @@ Gradle::
 [source,groovy,subs="+attributes"]
 ----
 dependencies {
-    implementation 'io.quarkiverse.couchbase:quarkus-couchbase:1.1.0'
+    implementation 'io.quarkiverse.couchbase:quarkus-couchbase:{quarkus_version}'
 }
 ----
 --

@@ -22,6 +22,5 @@ in addition to other Quarkus integration such as Health Checks, ArC dependency i
 
 == Current Limitations
 
-* *TLS Configuration*: While connections to Couchbase Capella are supported by default using the `couchbases://` scheme in dev mode, custom certificates or trust store configurations are not yet exposed.
 * *OpenTelemetry Tracing*: The `tracing-opentelemetry` package for the Couchbase Java SDK is not currently supported.
 * *Exhaustive Cluster configuration*: Cluster configurations via `application.properties` are limited to those listed below.
