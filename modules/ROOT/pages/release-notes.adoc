@@ -1,5 +1,6 @@
 = Couchbase Quarkus Release Notes
 :description: Release notes for the Couchbase Quarkus Java Extension.
+:page-toclevels: 2
 
 
 
