@@ -8,8 +8,8 @@ We recommend using SDKMAN to install the JDK, and Mandrel (the Quarkus-recommend
 
 [source,console]
 ----
-sdk install java 24.0.2.r22-mandrel
-sdk use java 24.0.2.r22-mandrel
+sdk install java 25.0.1.r25-mandrel
+sdk use java 25.0.1.r25-mandrel
 ----
 
 == Creating a Quarkus App
