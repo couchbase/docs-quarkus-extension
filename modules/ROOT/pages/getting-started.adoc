@@ -68,15 +68,21 @@ For additional configuration options, refer to the https://docs.quarkiverse.io/q
 
 == Using the Extension
 
-The extension produces an Application-scoped `Cluster` bean that can be injected using the jakarta annotation `@Inject`:
+The extension produces an Application-scoped `Cluster` bean that can be injected using the jakarta annotation `@Inject`, as well as a `Bucket`:
 
 [source,java]
 ----
 public class QuarkusExample {
     @Inject
     Cluster cluster;
+
+    @Inject
+    Bucket bucket;
 }
 ----
+
+When using DevServices, the Bucket will automatically be created.
+When connecting to an existing Couchbase instance, the bucket must already exist, and the name can be configured using `quarkus.couchbase.bucket-name`.
 
 From there, you can use the Cluster object like you normally would with the Java SDK.
 Refer to the https://docs.quarkiverse.io/quarkus-couchbase/dev/index.html[Quarkus Guide] for an example using `quarkus-rest` to create HTTP endpoints.
