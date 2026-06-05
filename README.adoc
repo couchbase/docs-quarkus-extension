@@ -2,7 +2,7 @@
 
 This repository hosts the documentation source for the https://docs.couchbase.com/quarkus/1.2/ROOT/overview.html[Couchbase Java SDK Quarkus Extension].
 
-This branch documents the 1.3 release of the Extension, which follows the 3.10.1 release of the Java SDK,
+This branch documents the 1.4 release of the Extension, which follows the 3.10.1 release of the Java SDK,
 which in turn follows the https://docs.couchbase.com/java-sdk/3.9/project-docs/compatibility.html#api-version[SDK 3.8 API].
 
 
