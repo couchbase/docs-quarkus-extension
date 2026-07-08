@@ -9,6 +9,16 @@
 
 == Couchbase Quarkus 1.4 Releases
 
+=== Version 1.4.1 (8 July 2026)
+
+https://javadoc.io/doc/io.quarkiverse.couchbase/quarkus-couchbase/1.4.1/index.html[API Reference]
+
+==== Improvements
+
+* Upgraded to `Quarkus` `3.36.3` (addresses https://nvd.nist.gov/vuln/detail/CVE-2026-50559[CVE-2026-50559])
+
+
+
 === Version 1.4.0 (5 June 2026)
 
 https://javadoc.io/doc/io.quarkiverse.couchbase/quarkus-couchbase/1.4.0/index.html[API Reference]
