@@ -18,6 +18,6 @@ asciidoc:
     name_platform: 'Java'
     name-sdk: 'Quarkus SDK extension'
     sdk_api: '3.10'
-    sdk-api-link: https://javadoc.io/doc/io.quarkiverse.couchbase/quarkus-couchbase/1.4.0/index.html
+    sdk-api-link: https://javadoc.io/doc/io.quarkiverse.couchbase/quarkus-couchbase/1.5.0/index.html
     sdk-gh-link: https://github.com/quarkiverse/quarkus-couchbase
     
