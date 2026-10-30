@@ -7,6 +7,28 @@
 [abstract]
 {description}
 
+== Couchbase Quarkus 1.5 Releases
+
+=== Version 1.5.0 (30 October 2026)
+
+https://javadoc.io/doc/io.quarkiverse.couchbase/quarkus-couchbase/1.5.0/index.html[API Reference]
+
+==== New Features
+
+* Added `ClusterEnvironmentCustomizer`.
+A CDI bean that implements it can set any `ClusterEnvironment` option that has no `quarkus.couchbase.*` property.
+For example, it can make the Reactive API publish results on an application scheduler with `publishOnScheduler`.
+
+==== Improvements
+
+* Upgraded to Couchbase Java SDK `3.13.0`.
+* Upgraded to `Quarkus` `3.40.1`. Quarkus Couchbase 1.5 needs Quarkus 3.40 or newer.
+* Upgraded to Netty `4.1.138.Final` and Jackson `2.21.7` through Quarkus, which fix their published CVEs.
+* Native mode now uses the Netty native-image configuration that ships with the Java SDK, instead of a copy kept in the extension.
+* The DevService TestContainer now retries a failed start, up to 3 attempts.
+
+
+
 == Couchbase Quarkus 1.4 Releases
 
 === Version 1.4.1 (8 July 2026)
